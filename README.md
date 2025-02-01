@@ -1,2 +1,3 @@
 # Algorithm Study
-- Backjoon : title_문제번호
+### Language : Java 11
+- Beakjoon : title_문제번호
