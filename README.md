@@ -1,2 +1,2 @@
 # Algorithm Study
-### Backjoon > title.문제번호
+- Backjoon : title_문제번호
