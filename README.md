@@ -1,3 +1,3 @@
 # Algorithm Study
 ### Language : Java 11
-- Baekjoon : title_문제번호
+- Baekjoon : B_문제번호_제목
