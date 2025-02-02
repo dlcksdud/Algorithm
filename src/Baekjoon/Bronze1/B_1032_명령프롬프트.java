@@ -1,12 +1,9 @@
 package Baekjoon.Bronze1;
 
-import java.io.File;
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
-public class CommandPrompt_1032 {
+public class B_1032_명령프롬프트 {
 
     /**
      * Q. 문제
@@ -54,8 +51,6 @@ public class CommandPrompt_1032 {
         }
 
         int previousFileNameLength = -1;
-
-
 
         for (int i =0; i < N; i++) {
             System.out.println((i + 1) + "번째 파일 이름을 적어주세요 : ");
