@@ -1,4 +1,4 @@
-package Baekjoon.Bronze1;
+package Baekjoon;
 
 import java.util.ArrayList;
 import java.util.Scanner;

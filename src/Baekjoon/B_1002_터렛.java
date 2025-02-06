@@ -1,7 +1,5 @@
-package Baekjoon.Bronze1;
+package Baekjoon;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class B_1002_터렛 {
