@@ -1,4 +1,4 @@
-package Baekjoon;
+package Baekjoon.IOAndArithmeticOperations;
 import java.util.Scanner;
 
 public class B_10869_사칙연산 {
