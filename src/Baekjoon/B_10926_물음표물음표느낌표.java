@@ -4,23 +4,30 @@ import java.util.Scanner;
 
 public class B_10926_물음표물음표느낌표 {
 
+//    public static boolean inspect(String input) {
+//        boolean hasUppercaseAndWrongLength = false;
+//        boolean hasUppercase = false;
+//        boolean wrongLength = false;
+//        for(char c : input.toCharArray()) {
+//            if(Character.isUpperCase(c)) {
+//                hasUppercase = true;
+//                break;
+//            }
+//        }
+//        if(input.length() > 50) {
+//            wrongLength = true;
+//        }
+//        if(hasUppercase || wrongLength) {
+//            hasUppercaseAndWrongLength = true;
+//        }
+//        return hasUppercaseAndWrongLength;
+//    }
+
     public static boolean inspect(String input) {
-        boolean hasUppercaseAndWrongLength = false;
-        boolean hasUppercase = false;
-        boolean wrongLength = false;
-        for(char c : input.toCharArray()) {
-            if(Character.isUpperCase(c)) {
-                hasUppercase = true;
-                break;
-            }
-        }
-        if(input.length() > 50) {
-            wrongLength = true;
-        }
-        if(hasUppercase || wrongLength) {
-            hasUppercaseAndWrongLength = true;
-        }
-        return hasUppercaseAndWrongLength;
+        boolean hasUppercase = input.chars().anyMatch(Character::isUpperCase);
+        boolean wrongLength = input.length() > 50;
+
+        return hasUppercase || wrongLength;
     }
 
     public static void main(String[] args) {
