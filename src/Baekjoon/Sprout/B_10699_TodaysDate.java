@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
-public class TodaysDate_10699 {
+public class B_10699_TodaysDate {
 
     /**
      * Q. 서울의 오늘날짜를 출력하는 프로그램을 작성하시오.
